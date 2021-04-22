@@ -1,0 +1,32 @@
+[
+     {
+         "id": 1,
+         "name": "Monkey Puzzle Tree",
+         "location": "Forests of Chile",
+         "imgUrl": "https://user-images.githubusercontent.com/72266712/115769962-23fc3180-a37a-11eb-92e8-b91423cbb293.jpeg"
+     },
+     {
+         "id": 2,
+         "name": "Boise Dentelle",
+         "location": "Cloud Forest of Mauritius",
+         "imgUrl": "https://user-images.githubusercontent.com/72266712/115769931-1cd52380-a37a-11eb-9583-e5ebfb488e31.png"
+     },
+     {
+        "id": 3,
+        "name": "Baobab",
+        "location": "Africa & India",
+        "imgUrl": "https://user-images.githubusercontent.com/72266712/115771318-cc5ec580-a37b-11eb-9f10-5f41be2accd0.jpeg"
+    },
+     {
+         "id": 4,
+         "name": "Dragon Tree",
+         "location": "Africa",
+         "imgUrl": "https://user-images.githubusercontent.com/72266712/115769934-1d6dba00-a37a-11eb-8cc4-695a821acb73.jpeg"
+     },
+     {
+         "id": 5,
+         "name": "Green Pitcher Plant",
+         "location": "Georgia & South Carolina",
+         "imgUrl": "https://user-images.githubusercontent.com/72266712/115770071-3b3b1f00-a37a-11eb-913d-c78dec7e1da4.jpeg"
+     }
+ ]
