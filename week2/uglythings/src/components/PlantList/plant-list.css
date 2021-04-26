@@ -1,0 +1,48 @@
+
+ button {
+     background-color: #0e1f4d;
+     color: white;
+     padding: 4px;
+     border: 2px solid white;
+ }
+ 
+ input {
+     padding: 3px;
+     border: 4px solid #0e1f4d;
+     text-align: center;
+ }
+ 
+ h1, h2 {
+     font-size: 75px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+    
+ }
+ h3 {
+     font-size: 30px;
+ }
+ h5, p {
+     font-size: 20px;
+ }
+ img {
+     margin: auto;
+     border: 5px solid #0e1f4d;
+     width: 350px;
+     height: 300px;
+ }
+
+ .consumer {
+     margin: auto;
+     margin-top: 2%;
+     
+     display: grid;
+     grid-template-columns: auto auto auto;
+     width: 80%;
+ }
+
+ .column {
+     margin:2%;
+ }
+
+ 

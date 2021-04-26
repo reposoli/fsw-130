@@ -1,0 +1,13 @@
+.navbarContainer {
+     padding-top: 1%;
+     padding-bottom: 1%;
+ }
+ 
+ .links {
+     text-decoration: none;
+     color: #0e1f4d;
+     border: #0e1f4d 3px solid;
+     background-color: white;
+     padding: 6px;
+     font-size: 18px;
+ }
