@@ -1,17 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './App.css';
+import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import App from "./App";
-import {PlantContextProvider} from "./provider/plantContext";
+import AuthProvider from './providers/AuthProvider';
 
 
 ReactDOM.render(
-     <React.StrictMode>
-          <BrowserRouter>
-               <PlantContextProvider>
-                    <App />
-               </PlantContextProvider>, 
-          </BrowserRouter>
-     </React.StrictMode>,
-     document.getElementById("root")
-);
+  <React.StrictMode>
+    <BrowserRouter>
+      <AuthProvider>
+        <App />
+      </AuthProvider>
+    </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById('root'));

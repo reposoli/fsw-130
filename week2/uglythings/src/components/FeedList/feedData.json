@@ -1,0 +1,39 @@
+[
+    {
+        "_id": 1,
+        "name": "The Ugly EggPlant",
+        "message": "That Eggplant IS Pretty Disfigured! ",
+        "imageName": "https://user-images.githubusercontent.com/72266712/115880161-6aa06900-a418-11eb-9620-a9d3557f4928.jpeg"
+    },
+    {
+        "_id": 2,
+        "name": "The Ugly Potato",
+        "message": "What a ridiculous shape!",
+        "imageName": "https://user-images.githubusercontent.com/72266712/115880171-6d02c300-a418-11eb-8420-4461ca4bedfc.jpeg"
+    },
+    {
+       "_id": 3,
+       "name": "The Ugly Apple",
+       "message": "not Grotesque. It's a siamese-twin!",
+       "imageName": "https://user-images.githubusercontent.com/72266712/115880178-70964a00-a418-11eb-9700-65ff628409f1.jpeg"
+   },
+    {
+        "_id": 4,
+        "name": "The Ugly Carrot",
+        "message": "Looks like a sea creature to me.. ",
+        "imageName": "https://user-images.githubusercontent.com/72266712/115880188-7429d100-a418-11eb-8168-7a553c741a97.jpeg"
+    },
+    {
+        "_id": 5,
+        "name": "The Ugly Lemon",
+        "message": "no failure here, tea or lemonade!",
+        "imageName": "https://user-images.githubusercontent.com/72266712/115880201-7ab84880-a418-11eb-9a9a-f56113bff755.jpeg"
+    },
+    {
+        "_id": 6,
+        "name": "The Ugly Orange",
+        "message": "Weird but still edible!",
+        "imageName": "https://user-images.githubusercontent.com/72266712/116626800-e408f180-a919-11eb-9515-479612ead893.jpeg"
+    }
+]
+   

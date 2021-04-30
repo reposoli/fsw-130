@@ -1,26 +1,25 @@
 * {
-  margin: 0;
-  text-align: center;
+    margin: 0;
+    padding: 0px;
+    font-size: 18px;
 }
 
-body {
-    background-color: rgb(184, 230, 223);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
+.h1 {
+    font-size: 55px;
+  }
+  
+
+.footerimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+.footer-wrapper {
+    text-align: center;
 }
 
-.FullPage {
-  margin: 2%;
-}
-.footer-wrapper{
-  left: 0;
-  right: 0;
-  text-align: right;
-  margin-top: 2%;
-}
-.plantList, .plantForm {
-  margin-top: 5%;
-}
+
+
+
+  
+  

@@ -1,0 +1,48 @@
+.post{
+    background-color: #15202a; 
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+}
+.postBody {
+    width: 40%;
+    height: 25%;
+    border: 5px solid #15202a;
+    margin-top: 0.5rem;
+}
+  
+.postBody:hover { 
+    border: #473b3b 5px solid;
+    margin-top: 1%;
+}
+  
+.picture {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 248px;
+    height: 248px;
+}
+  
+.name {
+    margin-left: 0;
+    margin-top: 2%;
+    font-family: HelveticaNeue;
+    font-size: 28px;
+    color: #facaca;
+}
+.deleteButton, .editButton {
+    background-color: rgb(41, 134, 18);
+    color: white;
+    padding: 1%;
+    margin: 1%;
+    border: 3px none;
+}
+
+
+.buttonContainer{
+    margin-left: 15%;
+    display: flex;
+    display: inline;
+
+}
+

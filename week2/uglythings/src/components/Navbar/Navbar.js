@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { withAuth } from '../../providers/AuthProvider';
 import './navbar.css';
 
 const Navbar = () => {
 
   return (
-    <div className = "navbarContainer">
+    <div>
+      <ul className='navbarContainer'>
         <Link to='/' className='links'> Home </Link>
-        <Link to='/' className='links'> About </Link>
-        <Link to='/' className='links'> Contact </Link>
+      </ul>
     </div>
   );
 }
 
-export default Navbar;
+export default withAuth(Navbar);

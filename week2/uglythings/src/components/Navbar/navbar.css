@@ -1,13 +1,26 @@
 .navbarContainer {
-     padding-top: 1%;
-     padding-bottom: 1%;
- }
- 
- .links {
-     text-decoration: none;
-     color: #0e1f4d;
-     border: #0e1f4d 3px solid;
-     background-color: white;
-     padding: 6px;
-     font-size: 18px;
- }
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-image: url("https://user-images.githubusercontent.com/72266712/116601949-0dfdec00-a8f9-11eb-8255-562b72ae7afb.png");
+    background-size: contain;
+    margin: 2%;
+    
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(238, 15, 15);
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 20%;
+    font-size: 19px;
+
+}
+
+.links:hover {
+padding: 10px;
+background-color: crimson;
+color: white;
+}
+

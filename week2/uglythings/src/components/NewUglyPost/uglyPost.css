@@ -1,0 +1,45 @@
+.postWrapper{
+  text-align: center;
+  background-image: url("https://user-images.githubusercontent.com/72266712/116598148-7eeed500-a8f4-11eb-9b01-58da926b5a30.jpg");
+  padding-bottom: 1%;
+  padding-top: 2%;
+  background-size: 100%;
+
+}
+.userName, .atName {
+  font-size: 16px;
+  padding: 1%;
+  margin-bottom: 1%;
+  border: none;
+  background-color: #15202a;
+  color: white;
+  margin-right: 1%;
+}
+
+.textBox{
+  font-size: 17px;
+  padding: 1%;
+  color: white;
+  background-color: #15202a;
+  margin-bottom: 1%;
+}
+
+.post{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+.button {
+padding: 1%;
+background-color: #15202a;
+border: none;
+color: white;
+}
+.button:hover {
+  padding: 1.5%;
+  background-color: white;
+  color: #15202a;
+  border: 3px solid #15202a;
+}
+
