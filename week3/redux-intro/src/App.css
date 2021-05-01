@@ -1,0 +1,83 @@
+* {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight','Helvetica Neueu', Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: rgb(35, 144, 180);
+ }
+   
+.stopwatch { 
+    text-align: center;
+    background-color: rgb(35, 144, 180);
+  
+ }
+ 
+.stopwatch-timer {
+    font-size: 76px;
+    font-weight: 100;
+    line-height: 160px;
+    margin: 0;
+    border: 25px solid rgb(35, 144, 180);
+    border-bottom: 0;
+    background-color: white;
+    color: black;
+}
+   
+.stopwatch-laps {
+    padding: 0 0 0 20px;
+    list-style-type: none;
+ }
+   
+.stopwatch-lap {
+    font-size: 25px;
+    line-height: 60px;
+    padding-right: 20px;
+    text-align: right;
+    border-bottom: 1px solid rgb(35, 144, 180);
+ }
+   
+.stopwatch-lap strong {
+    float: left;
+    font-weight: 100;
+ }
+   
+
+   
+.btn {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: black;
+    outline: none;
+    
+} 
+.start-btn { 
+    color: green;
+}
+.stop-btn  { 
+    color: red;
+}
+.reset-lap {
+    color: rgb(35, 144, 180);
+}
+.theBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.footerimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+.footer-wrapper {
+    text-align: center;
+    padding-top: 15%;
+}
