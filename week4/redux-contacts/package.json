@@ -1,0 +1,8 @@
+{
+  "name": "redux-contacts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "redux": "^4.1.0"
+  }
+}
