@@ -1,2 +1,3 @@
-week1/context-practice/package-lock.json
-week1/context-practice/package.json
+package-lock.json
+package.json
+node_modules
