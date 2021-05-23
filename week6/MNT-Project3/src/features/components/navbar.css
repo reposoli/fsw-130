@@ -1,0 +1,58 @@
+.navbar-container {
+    background-color: rgb(95, 13, 13);
+    padding: 35px;
+    margin-bottom: 20px;
+ }
+ 
+ .navbar-links-container {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .navbar-links {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border: 4px solid black;
+    background-color: black;
+    padding: 2px;
+    box-shadow: 3px 3px 2px grey;
+ }
+ h1, h2 {
+     text-decoration: underline;
+ }
+
+
+ .footerimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 2%;
+  }
+  .footer-wrapper {
+    background-color: rgb(95, 13, 13);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+ 
+ .containerbox {
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+}
+ul, li {
+    list-style: none;
+    padding-top: 15px;
+    font-variant: small-caps;
+}
+
+button {
+    border: 4px solid black;
+    background-color: black;
+    box-shadow: 3px 3px 2px grey;
+    color: white;
+    margin: 2px;
+    
+}
