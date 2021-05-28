@@ -44,9 +44,6 @@ class ContactContextProvider extends Component {
     });
   };
 
-
-
-
   menuDelete = (index) => {
     console.log("edit", index);
     console.log(document.getElementById(index));
