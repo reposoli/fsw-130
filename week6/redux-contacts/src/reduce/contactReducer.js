@@ -1,4 +1,4 @@
-import * as actionTypes from '../act/actions';
+import * as actionTypes from '../act/action';
 // eslint-disable-next-line 
 export default (state = [], action) => {
     switch (action.type){
