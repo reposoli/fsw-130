@@ -1,5 +1,5 @@
 import React from "react"
-import { Switch, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 import Home from "./components/Home"
@@ -12,11 +12,11 @@ function App() {
   return (
     <div>
       <Navbar />      
-        <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route path="/Arsenal" component={Arsenal}/>
-            <Route path="/Contact" component={Contact}/>
-        </Switch>
+        <Routes>
+            <Route path="/Home" element={<Home/>}/>
+            <Route path="/Arsenal" element={<Arsenal/>}/>
+            <Route path="/Contact" element={<Contact/>}/>
+        </Routes>
         <Footer />
     </div>
   

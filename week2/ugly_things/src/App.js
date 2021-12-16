@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import NewUglyPost from './components/NewUglyPost/newUglyPost';
@@ -15,11 +15,11 @@ const App = () => {
     <div >
       <Navbar />
 
-      <Switch>
+      <Routes>
         <Route exact path='/' component={Home} />
         <Route path='/login' component={Login} />
         <Route path='/posts' component={UglyPost}/>
-      </Switch>
+      </Routes>
       <NewUglyPost />
       <Footer />
      

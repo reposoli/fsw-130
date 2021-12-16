@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom';
 import { Movie } from './features/components/Movie';
 import { TvShow } from './features/components/TvShow';
 import { Navbar } from './features/components/Navbar';
@@ -10,11 +10,17 @@ function App() {
   
   return (
     <div className="App">
-      <Navbar />
-      <Switch>
-        <Route exact path='/' component={Movie} />
-        <Route path='/tvshows' component={TvShow} />
-      </Switch>
+      <Navbar/>
+      <Routes>
+        <Route 
+          path='/movie' 
+          element={<Movie/>} 
+        />
+        <Route 
+          path='/tvshows' 
+          element={<TvShow/>}
+        />
+      </Routes>
       <Footer />
     </div>
     
